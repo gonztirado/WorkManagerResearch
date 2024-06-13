@@ -23,7 +23,7 @@ This research aims to verify how periodic and scheduled tasks behave in differen
 
 ### Will WorkManager’s tasks be executed if the application is forced to be closed?
 
-No, if the application is force-stopped by the user, all ongoing WorkManager tasks will be stopped.
+No, if the application is force-stopped by the user or the OS, all ongoing WorkManager tasks will be stopped.
 The tasks will not resume until the app is manually reopened by the user.
 
 ### Will WorkManager’s tasks be executed if the device is rebooted? And if it was previously forced to be closed?
